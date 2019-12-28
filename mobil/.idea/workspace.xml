@@ -6,7 +6,30 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72649ed2-2314-4c5c-9e3e-c19d5cb34261" name="Default Changelist" comment="" />
+    <list default="true" id="72649ed2-2314-4c5c-9e3e-c19d5cb34261" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controller/src/test/java/hu/uni/eszterhazy/beadando/MobileControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hu/uni/eszterhazy/beadando/model/MobileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daojson/src/test/java/hu/uni/eszterhazy/beadando/dao/impl/MobileDAOJSONTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/test/java/hu/uni/eszterhazy/beadando/service/impl/MobileServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/controller.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/controller/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/src/main/java/hu/uni/eszterhazy/beadando/controller/MobileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller/src/main/java/hu/uni/eszterhazy/beadando/controller/MobileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/hu/uni/eszterhazy/beadando/model/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hu/uni/eszterhazy/beadando/model/Mobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/hu/uni/eszterhazy/beadando/model/Mobile.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/hu/uni/eszterhazy/beadando/model/Mobile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daojson/daojson.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daojson/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/daojson/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daojson/src/main/java/hu/uni/eszterhazy/beadando/dao/impl/MobileDAOJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/daojson/src/main/java/hu/uni/eszterhazy/beadando/dao/impl/MobileDAOJSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daojson/target/classes/hu/uni/eszterhazy/beadando/dao/impl/MobileDAOJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/daojson/target/classes/hu/uni/eszterhazy/beadando/dao/impl/MobileDAOJSON.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobil.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/hu/uni/eszterhazy/beadando/service/impl/MobileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/hu/uni/eszterhazy/beadando/service/impl/MobileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/hu/uni/eszterhazy/beadando/service/impl/MobileServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/hu/uni/eszterhazy/beadando/service/impl/MobileServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/core/target/" />
     <ignored path="$PROJECT_DIR$/dao.json/target/" />
@@ -19,6 +42,15 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/mobil$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1577543465208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/mobil$MobileDAOJSONTest.ic" NAME="MobileDAOJSONTest Coverage Results" MODIFIED="1577572481646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>hu.uni.eszterhazy.beadando.dao.impl.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="293" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1607558817">
@@ -98,91 +130,63 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-372184302">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="16" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="16" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="3427" />
+          <entry key="xml" value="87" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3427" />
+          <entry key="XML" value="87" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/service.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="90" selection-start-line="1" selection-start-column="90" selection-end-line="1" selection-end-column="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/daojson/src/main/java/hu/uni/eszterhazy/beadando/dao/impl/MobileDAOJSON.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="61" column="63" selection-start-line="61" selection-start-column="63" selection-end-line="61" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daojson/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="185">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pom.xml">
+        <entry file="file://$PROJECT_DIR$/daojson/src/test/java/hu/uni/eszterhazy/beadando/dao/impl/MobileDAOJSONTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/uni/eszterhazy/beadando/model/Mobile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+            <state relative-caret-position="502">
+              <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -225,21 +229,31 @@
         <option value="$PROJECT_DIR$/web/src/main/web/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/controller/src/main/java/hu/uni/eszterhazy/beadando/MobileController.java" />
         <option value="$PROJECT_DIR$/controller/src/main/java/hu/uni/eszterhazy/beadando/controller/MobilController.java" />
-        <option value="$PROJECT_DIR$/service/pom.xml" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/dispatcher-config.xml" />
         <option value="$PROJECT_DIR$/service/src/main/java/hu/uni/eszterhazy/beadando/dao/MobileDao.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/hu/uni/eszterhazy/beadando/service/MobileService.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/hu/uni/eszterhazy/beadando/service/impl/MobileServiceImpl.java" />
         <option value="$PROJECT_DIR$/core/pom.xml" />
         <option value="$PROJECT_DIR$/dao.json/pom.xml" />
         <option value="$PROJECT_DIR$/controller/src/main/java/hu/uni/eszterhazy/beadando/controller/ExceptionsController.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/hu/uni/eszterhazy/beadando/model/Mobile.java" />
         <option value="$PROJECT_DIR$/controller/src/main/java/hu/uni/eszterhazy/beadando/controller/MobileController.java" />
         <option value="$PROJECT_DIR$/dao.json/src/main/java/hu/uni/eszterhazy/beadando/dao/impl/MobileDAOJSON.java" />
         <option value="$PROJECT_DIR$/daojson/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/controller/src/test/java/ControllerTests.java" />
+        <option value="$PROJECT_DIR$/controller/src/test/java/hu/uni/eszterhazy/beadando/MobileControllerTest.java" />
+        <option value="$PROJECT_DIR$/web/src/test/java/hu/uni/eszterhazy/beadando/MobileControllerTest.java" />
+        <option value="$PROJECT_DIR$/web/src/test/java/hu/uni/eszterhazy/beadano/controller/MobilControllerTest.java" />
         <option value="$PROJECT_DIR$/web/pom.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/java/hu/uni/eszterhazy/beadando/model/Mobile.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/hu/uni/eszterhazy/beadando/model/MobileTest.java" />
+        <option value="$PROJECT_DIR$/service/src/test/java/hu/uni/eszterhazy/beadando/MobileServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/service/src/test/java/hu/uni/eszterhazy/impl/MobileServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/hu/uni/eszterhazy/beadando/service/impl/MobileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service/pom.xml" />
+        <option value="$PROJECT_DIR$/service/src/test/java/hu/uni/eszterhazy/beadando/service/impl/MobileServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/daojson/src/main/java/hu/uni/eszterhazy/beadando/dao/impl/MobileDAOJSON.java" />
+        <option value="$PROJECT_DIR$/daojson/src/test/java/hu/uni/eszterhazy/beadando/dao/impl/MobileDAOJSONTest.java" />
       </list>
     </option>
   </component>
@@ -264,10 +278,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="337" />
-    <option name="y" value="12" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-2568" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -298,7 +312,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,7 +322,151 @@
             <path>
               <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobil" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beadando" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beadando" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beadando" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beadando" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beadando" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
@@ -319,7 +476,135 @@
             <path>
               <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="daojson" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="daojson" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="daojson" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="daojson" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="daojson" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="daojson" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="daojson" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beadando" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beadando" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beadando" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
@@ -334,6 +619,13 @@
             </path>
             <path>
               <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobil" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -341,21 +633,28 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577122498631" />
-    <property name="last_opened_file_path" value="E:/temprepo/mobil" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577572481201" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bookshop-20191228T143944Z-001/bookshop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="hu.uni.eszterhazy.beadando.dao.impl" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="hu.uni.eszterhazy.beadando.service.exceptions" />
       <recent name="hu.uni.eszterhazy.beadando.exceptions" />
@@ -373,7 +672,74 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Unnamed">
+  <component name="RunManager" selected="JUnit.MobileDAOJSONTest">
+    <configuration name="ControllerTests" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="controller" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ControllerTests" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MobileDAOJSONTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="daojson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.uni.eszterhazy.beadando.dao.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.uni.eszterhazy.beadando.dao.impl" />
+      <option name="MAIN_CLASS_NAME" value="hu.uni.eszterhazy.beadando.dao.impl.MobileDAOJSONTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MobileServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.uni.eszterhazy.beadando.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.uni.eszterhazy.beadando.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="hu.uni.eszterhazy.beadando.service.impl.MobileServiceImplTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MobileServiceImplTest.MobileNotFoundTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.uni.eszterhazy.beadando.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.uni.eszterhazy.beadando.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="hu.uni.eszterhazy.beadando.service.impl.MobileServiceImplTest" />
+      <option name="METHOD_NAME" value="MobileNotFoundTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MobileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.uni.eszterhazy.beadando.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.uni.eszterhazy.beadando.model" />
+      <option name="MAIN_CLASS_NAME" value="hu.uni.eszterhazy.beadando.model.MobileTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -472,7 +838,21 @@
     <list>
       <item itemvalue="Maven.Unnamed" />
       <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Android JUnit.ControllerTests" />
+      <item itemvalue="JUnit.MobileTest" />
+      <item itemvalue="JUnit.MobileServiceImplTest" />
+      <item itemvalue="JUnit.MobileServiceImplTest.MobileNotFoundTest" />
+      <item itemvalue="JUnit.MobileDAOJSONTest" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MobileDAOJSONTest" />
+        <item itemvalue="JUnit.MobileServiceImplTest" />
+        <item itemvalue="JUnit.MobileServiceImplTest.MobileNotFoundTest" />
+        <item itemvalue="JUnit.MobileTest" />
+        <item itemvalue="Android JUnit.ControllerTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -494,11 +874,45 @@
       <workItem from="1577121598914" duration="21000" />
       <workItem from="1577122068923" duration="460000" />
       <workItem from="1577122630695" duration="23000" />
+      <workItem from="1577543246695" duration="2688000" />
+      <workItem from="1577550993128" duration="16023000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MobileDAOJSONTest - 2019.12.28 at 23h 16m 03s.xml">
+      <configuration name="MobileDAOJSONTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MobileDAOJSONTest - 2019.12.28 at 23h 16m 32s.xml">
+      <configuration name="MobileDAOJSONTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MobileDAOJSONTest - 2019.12.28 at 23h 17m 29s.xml">
+      <configuration name="MobileDAOJSONTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MobileDAOJSONTest - 2019.12.28 at 23h 17m 55s.xml">
+      <configuration name="MobileDAOJSONTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MobileDAOJSONTest - 2019.12.28 at 23h 18m 06s.xml">
+      <configuration name="MobileDAOJSONTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MobileDAOJSONTest - 2019.12.28 at 23h 20m 40s.xml">
+      <configuration name="MobileDAOJSONTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MobileDAOJSONTest - 2019.12.28 at 23h 24m 10s.xml">
+      <configuration name="MobileDAOJSONTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MobileDAOJSONTest - 2019.12.28 at 23h 24m 53s.xml">
+      <configuration name="MobileDAOJSONTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MobileDAOJSONTest - 2019.12.28 at 23h 25m 54s.xml">
+      <configuration name="MobileDAOJSONTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MobileDAOJSONTest - 2019.12.28 at 23h 31m 12s.xml">
+      <configuration name="MobileDAOJSONTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29489000" />
+    <option name="totallyTimeSpent" value="48200000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -510,10 +924,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-2568" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2082671" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -523,7 +937,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -545,6 +959,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3298887" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -695,36 +1110,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/controller.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/core.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobil.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/hu/uni/eszterhazy/beadando/service/impl/MobileServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="43" column="61" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/hu/uni/eszterhazy/beadando/dao/MobileDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/hu/uni/eszterhazy/beadando/controller/MobileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="51" column="99" selection-start-line="51" selection-start-column="99" selection-end-line="51" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/controller.iml" />
+    <entry file="file://$PROJECT_DIR$/core/core.iml" />
+    <entry file="file://$PROJECT_DIR$/mobil.iml" />
     <entry file="file://$PROJECT_DIR$/controller/src/main/java/hu/uni/eszterhazy/beadando/controller/ExceptionsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -739,27 +1127,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/service.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="90" selection-start-line="1" selection-start-column="90" selection-end-line="1" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/daojson/src/main/java/hu/uni/eszterhazy/beadando/dao/impl/MobileDAOJSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="61" column="63" selection-start-line="61" selection-start-column="63" selection-end-line="61" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/service/service.iml" />
     <entry file="file://$PROJECT_DIR$/daojson/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -767,43 +1135,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/controller/src/test/java/ControllerTests.java" />
+    <entry file="file://$PROJECT_DIR$/controller/src/test/java/hu/uni/eszterhazy/beadando/MobileControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        <state relative-caret-position="527">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/uni/eszterhazy/beadando/model/Mobile.java">
+    <entry file="file://$PROJECT_DIR$/web/src/test/java/hu/uni/eszterhazy/beadando/MobileControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/test/java/hu/uni/eszterhazy/beadano/controller/MobilControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+          <folding>
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/hu/uni/eszterhazy/beadando/controller/MobileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="52" column="99" selection-start-line="52" selection-start-column="99" selection-end-line="52" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/java/hu/uni/eszterhazy/impl/MobileServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/uni/eszterhazy/beadando/model/Mobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/hu/uni/eszterhazy/beadando/model/MobileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="30" column="35" selection-start-line="27" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/hu/uni/eszterhazy/beadando/dao/MobileDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/hu/uni/eszterhazy/beadando/service/impl/MobileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#GetMobilesByManufacturer#0;class#MobileServiceImpl#0" />
+            <element signature="method#GetMobilesBetweenYears#0;class#MobileServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/java/hu/uni/eszterhazy/beadando/service/impl/MobileServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daojson/src/main/java/hu/uni/eszterhazy/beadando/dao/impl/MobileDAOJSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daojson/src/test/java/hu/uni/eszterhazy/beadando/dao/impl/MobileDAOJSONTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

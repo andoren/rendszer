@@ -21,18 +21,14 @@ public class MobileDAOJSON implements MobileDao {
 
     public MobileDAOJSON(String filepath) throws IOException {
         jsonFile = new File(filepath);
-        if(!jsonFile.exists()){
+
             jsonFile.createNewFile();
             FileWriter writer = new FileWriter(jsonFile);
             writer.write("[]");
             writer.close();
-        }
-        if(jsonFile.getTotalSpace() <= 0){
-            jsonFile.createNewFile();
-            FileWriter writer = new FileWriter(jsonFile);
-            writer.write("[]");
-            writer.close();
-        }
+
+
+
         mapper = new ObjectMapper();
         mapper.registerModule(new JavaTimeModule());
     }
@@ -45,9 +41,11 @@ public class MobileDAOJSON implements MobileDao {
     }
 
     public Mobile ReadMobileByImei(String imei) throws IOException, MobileNotFoundException {
+
         Collection<Mobile> mobiles = ReadMobiles();
         for (Mobile m:mobiles) {
             if(m.getImei().equals(imei)){
+
                 return m;
             }
         }

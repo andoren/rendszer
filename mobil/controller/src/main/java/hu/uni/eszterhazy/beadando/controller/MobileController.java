@@ -16,6 +16,7 @@ import java.util.Collection;
 
 
 @RestController
+public
 class MobileController {
     MobileService mobileService;
 

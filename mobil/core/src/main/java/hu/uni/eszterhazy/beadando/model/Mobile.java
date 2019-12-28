@@ -10,14 +10,14 @@ public class Mobile {
     public Mobile(){
 
     }
-    public Mobile(Manucafterer manucafterer, String type, int cameranumber, LocalDate date_of_manucafturing, String imei, boolean isnew, double screensize, String color) {
+    public Mobile(Manucafterer manucafterer, String type, int cameranumber, LocalDate date_of_manucafturing, String imei, boolean isnew, double screensize, String color) throws InvalidImeiException, InvalidMobileTypeException, InvalidCameraNumberException, InvalidScreenSizeException {
         this.manucafterer = manucafterer;
-        this.type = type;
-        this.cameranumber = cameranumber;
+        setType(type);
+        setCameranumber(cameranumber);
         this.date_of_manucafturing = date_of_manucafturing;
-        this.imei = imei;
+        setImei(imei);
         this.isnew = isnew;
-        this.screensize = screensize;
+        setScreensize(screensize);
         this.color = color;
     }
 
@@ -44,7 +44,7 @@ public class Mobile {
     }
 
     public void setType(String type) throws InvalidMobileTypeException {
-        if(type.length() < 1 || type.length() > 100) throw new InvalidMobileTypeException(type);
+        if(type.length() < 1 || type.length() > 30) throw new InvalidMobileTypeException(type);
         this.type = type;
     }
 

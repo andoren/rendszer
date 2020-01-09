@@ -30,16 +30,16 @@ public class MobileServiceImpl implements MobileService {
         return dao.ReadMobileByImei(imei);
     }
 
-    public void AddMobile(Mobile mobile) throws MobileAlreadyExistsException, IOException, MobileNotFoundException {
-        dao.AddMobile(mobile);
+    public boolean AddMobile(Mobile mobile) throws MobileAlreadyExistsException, IOException, MobileNotFoundException {
+        return dao.AddMobile(mobile);
     }
 
-    public void UpdateMobile(Mobile mobile) throws MobileNotFoundException, IOException {
-        dao.UpdateMobile(mobile);
+    public boolean UpdateMobile(Mobile mobile) throws MobileNotFoundException, IOException {
+        return dao.UpdateMobile(mobile);
     }
 
-    public void DeleteMobile(String imei) throws MobileNotFoundException, IOException {
-        dao.DeleteMobile(imei);
+    public boolean DeleteMobile(String imei) throws MobileNotFoundException, IOException {
+        return dao.DeleteMobile(imei);
     }
 
     public Collection<Mobile> GetMobilesByManufacturer(Manucafterer manucafterer) throws IOException {

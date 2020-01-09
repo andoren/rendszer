@@ -12,9 +12,9 @@ import java.util.Collection;
 public interface MobileService {
     Collection<Mobile> GetAllMobile() throws IOException;
     Mobile GetMobileByImei(String imei) throws MobileNotFoundException, IOException;
-    void AddMobile(Mobile mobile) throws MobileAlreadyExistsException, IOException, MobileNotFoundException;
-    void UpdateMobile(Mobile mobile) throws MobileNotFoundException, IOException;
-    void DeleteMobile(String imei) throws MobileNotFoundException, IOException;
+    boolean AddMobile(Mobile mobile) throws MobileAlreadyExistsException, IOException, MobileNotFoundException;
+    boolean UpdateMobile(Mobile mobile) throws MobileNotFoundException, IOException;
+    boolean DeleteMobile(String imei) throws MobileNotFoundException, IOException;
     Collection<Mobile> GetMobilesByManufacturer(Manucafterer manucafterer) throws IOException;
     Collection<Mobile> GetMobilesBetweenYears(int fromYear, int toYear) throws IOException, InvalidYearRangeException;
 }

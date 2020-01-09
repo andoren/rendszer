@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="consoleApp" />
         <module name="controller" />
         <module name="core" />
         <module name="daojson" />
         <module name="service" />
-        <module name="web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="console" target="1.8" />
       <module name="web" target="1.7" />
       <module name="webapp" target="1.5" />
     </bytecodeTargetLevel>

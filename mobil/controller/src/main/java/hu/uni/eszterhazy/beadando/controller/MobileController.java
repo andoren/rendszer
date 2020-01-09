@@ -1,75 +1,63 @@
 package hu.uni.eszterhazy.beadando.controller;
 
-import hu.uni.eszterhazy.beadando.model.Manucafterer;
+import hu.uni.eszterhazy.beadando.dao.MobileDao;
+import hu.uni.eszterhazy.beadando.exceptions.InvalidImeiException;
 import hu.uni.eszterhazy.beadando.model.Mobile;
 import hu.uni.eszterhazy.beadando.service.MobileService;
-import hu.uni.eszterhazy.beadando.service.exceptions.InvalidYearRangeException;
 import hu.uni.eszterhazy.beadando.service.exceptions.MobileAlreadyExistsException;
 import hu.uni.eszterhazy.beadando.service.exceptions.MobileNotFoundException;
+import hu.uni.eszterhazy.beadando.service.impl.MobileServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.*;
-import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
+import org.springframework.stereotype.Controller;
 
 import java.io.IOException;
 import java.util.Collection;
 
 
-@RestController
-public
-class MobileController {
-    MobileService mobileService;
-
-    public MobileController(@Autowired MobileService mobileService) {
-        this.mobileService = mobileService;
-    }
-    @RequestMapping(value="/")
-    //ha ezt kihagyuk akkor mvc.
-    public String hello(){
-        return "Pekár Mihály TYH60S";
+@Controller
+public class MobileController {
+    MobileServiceImpl service;
+    public MobileController(MobileServiceImpl service){
+        this.service = service;
     }
 
-    @RequestMapping(value="/mobileNumbers")
-    public int getMobileNumbersInStorage() throws IOException {
-        return mobileService.GetAllMobile().size();
+    public Collection<Mobile> listOfMobiles() throws IOException {
+        return service.GetAllMobile();
     }
-
-    @RequestMapping(value="/getMobiles")
-    public Collection<Mobile> getAllMobiles() throws IOException {
-        return mobileService.GetAllMobile();
+    public String addMobile(Mobile mobile) throws IOException, MobileNotFoundException {
+        try{
+            if(service.AddMobile(mobile)){
+                return "Telefon hozzáadva: "+mobile.getImei();
+            }
+            else {
+                return "Ismeretlen hiba";
+            }
+        }catch (MobileAlreadyExistsException e){
+            return "Ezzel az imei számmál már van telefon a raktárban! Imei: "+mobile.getImei();
+        }
     }
-
-    @RequestMapping(value="/addMobile", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
-    public String addMobile(@RequestBody Mobile mobile) throws MobileNotFoundException, MobileAlreadyExistsException, IOException {
-        mobileService.AddMobile(mobile);
-        return "New mobile has been added: "+mobile.getImei();
+    public String updateMobile(Mobile mobile) throws IOException{
+        try {
+            if(service.UpdateMobile(mobile)){
+                return "Telefon módosítva: "+mobile.getImei();
+            }
+            else{
+                return "Ismeretlen hiba.";
+            }
+        }catch (MobileNotFoundException e){
+            return "Nincs ilyen telefon a raktárban! Imei: "+mobile.getImei();
+        }
     }
-
-    @RequestMapping(value="/getMobile/{imei}")
-    public Mobile gettMobileByImei(@PathVariable String imei) throws MobileNotFoundException, IOException {
-        return mobileService.GetMobileByImei(imei);
+    public String deleteMobile(String imei) throws IOException{
+        try {
+            if(service.DeleteMobile(imei)){
+                return "Telefon törölve: "+imei;
+            }
+            else{
+                return "Ismeretlen hiba.";
+            }
+        }catch (MobileNotFoundException e){
+            return "Nincs ilyen telefon a raktárban! Imei: "+imei;
+        }
     }
-
-    @RequestMapping(value="/updateMobile",method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
-    public Mobile updateMobile(@RequestBody Mobile mobile) throws IOException, MobileNotFoundException {
-        mobileService.UpdateMobile(mobile);
-        return mobileService.GetMobileByImei(mobile.getImei());
-    }
-
-    @RequestMapping(value="/deleteMobile/{imei}", method = RequestMethod.DELETE)
-    public String deleteMobile(@PathVariable String imei) throws IOException, MobileNotFoundException {
-        mobileService.DeleteMobile(imei);
-        return "The following mobile phone with this imei: "+imei+" has been deleted";
-    }
-
-    @RequestMapping(value="/getMobilesBetweenYears/{fromYear}-{toYear}")
-    public Collection<Mobile> getMobilesBetweenYears(@PathVariable int fromYear, @PathVariable int toYear) throws IOException, InvalidYearRangeException {
-        return mobileService.GetMobilesBetweenYears(fromYear,toYear);
-    }
-
-    @RequestMapping(value="getMobilesByManufacterer/{manufacterer}")
-    public Collection<Mobile> getMobilesByManufacterer(@PathVariable Manucafterer manufacterer) throws IOException,IllegalArgumentException, MethodArgumentTypeMismatchException {
-        return mobileService.GetMobilesByManufacturer(manufacterer);
-    }
-
 }

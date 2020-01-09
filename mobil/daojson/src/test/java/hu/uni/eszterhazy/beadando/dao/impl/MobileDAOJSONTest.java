@@ -38,6 +38,11 @@ public class MobileDAOJSONTest {
         dao.AddMobile(mobile);
         Assert.assertEquals(2,dao.ReadMobiles().size());
     }
+    @Test(expected = MobileAlreadyExistsException.class)
+    public void AddMobileTestAlreadyExists() throws InvalidMobileTypeException, InvalidImeiException, InvalidScreenSizeException, InvalidCameraNumberException, IOException, MobileAlreadyExistsException {
+        Mobile mobile =new Mobile(Manucafterer.Samsung, "Galaxy S6", 2, LocalDate.now(), "868779036670818", false, 4.5,"blue");
+        dao.AddMobile(mobile);
+    }
     @Test
     public void UpdateMobileTest() throws InvalidMobileTypeException, InvalidImeiException, InvalidScreenSizeException, InvalidCameraNumberException, IOException,MobileNotFoundException {
         Mobile mobile = new Mobile(Manucafterer.Samsung, "Galaxy S9", 2, LocalDate.now(), "868779036670818", false, 4.5,"blue");

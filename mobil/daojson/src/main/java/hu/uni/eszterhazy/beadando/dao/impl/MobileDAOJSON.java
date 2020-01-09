@@ -53,7 +53,7 @@ public class MobileDAOJSON implements MobileDao {
     }
 
 
-    public void AddMobile(Mobile mobile) throws IOException,  MobileAlreadyExistsException {
+    public boolean AddMobile(Mobile mobile) throws IOException,  MobileAlreadyExistsException {
         Collection mobiles = ReadMobiles();
         try {
             ReadMobileByImei(mobile.getImei());
@@ -62,12 +62,13 @@ public class MobileDAOJSON implements MobileDao {
         catch (MobileNotFoundException e){
             mobiles.add(mobile);
             mapper.writeValue(jsonFile,mobiles);
+            return true;
         }
+
     }
 
-    public void UpdateMobile(Mobile mobile) throws IOException, MobileNotFoundException {
+    public boolean UpdateMobile(Mobile mobile) throws IOException, MobileNotFoundException {
         Mobile m = ReadMobileByImei(mobile.getImei());
-        System.out.printf(m.getImei());
         Collection<Mobile> mobiles = ReadMobiles();
         List<Mobile> tempmobiles  = new ArrayList<>(mobiles);
         int index = 0;
@@ -76,18 +77,19 @@ public class MobileDAOJSON implements MobileDao {
         }
         tempmobiles.set(index,mobile);
         mapper.writeValue(jsonFile,tempmobiles);
+        return true;
     }
 
-    public void DeleteMobile(String imei) throws IOException, MobileNotFoundException {
+    public boolean DeleteMobile(String imei) throws IOException, MobileNotFoundException {
         Collection<Mobile> mobiles = ReadMobiles();
         Mobile m = ReadMobileByImei(imei);
         Collection<Mobile> resultMobiles = new ArrayList<Mobile>();
         for (Mobile mobile:mobiles){
             if(!mobile.getImei().equals(imei)){
-                System.out.printf("Mobile imei: "+mobile.getImei()+" Searched imei: "+imei+"\n");
                 resultMobiles.add(mobile);
             }
         }
         mapper.writeValue(jsonFile,resultMobiles);
+        return true;
     }
 }

@@ -13,7 +13,7 @@
         <module>service</module>
         <module>daojson</module>
         <module>controller</module>
-        <module>web</module>
+        <module>consoleApp</module>
 
     </modules>
     <properties>

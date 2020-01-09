@@ -10,7 +10,7 @@ import java.util.Collection;
 public interface MobileDao {
     Collection<Mobile> ReadMobiles() throws IOException;
     Mobile ReadMobileByImei(String imei) throws IOException, MobileNotFoundException;
-    void AddMobile(Mobile mobile) throws IOException, MobileNotFoundException, MobileAlreadyExistsException;
-    void UpdateMobile(Mobile mobile) throws IOException, MobileNotFoundException;
-    void DeleteMobile(String imei) throws IOException, MobileNotFoundException;
+    boolean AddMobile(Mobile mobile) throws IOException, MobileNotFoundException, MobileAlreadyExistsException;
+    boolean UpdateMobile(Mobile mobile) throws IOException, MobileNotFoundException;
+    boolean DeleteMobile(String imei) throws IOException, MobileNotFoundException;
 }
